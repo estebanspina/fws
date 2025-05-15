@@ -65,18 +65,6 @@ There are many ways to get involved in Strata — whether you are a backend deve
 4. Open a **Pull Request (PR)** and describe your changes.
 5. Participate in the review process by addressing feedback promptly.
 
-## Code of Conduct
-
-All contributors are expected to adhere to our [Community Code of Conduct](community.md) in all project spaces, including GitHub, forum, and events.
-
-## Communication Channels
-
-- **Forum:** [forum.stratalang.org](https://forum.stratalang.org)
-- **GitHub Discussions:** [github.com/stratalang/strata/discussions](https://github.com/stratalang/strata/discussions)
-- **Community Blog:** [blog.stratalang.org](https://blog.stratalang.org)
-
-For sensitive issues or reports, contact the community team at [community@stratalang.org](mailto:community@stratalang.org).
-
 ## License
 
 By contributing, you agree that your contributions will be licensed under the **MIT License**, the same as the **Strata Programming Language** itself.
