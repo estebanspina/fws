@@ -2,9 +2,9 @@
 
 FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web, inspirado en la sintaxis y funcionalidad de lenguajes maduros como JavaScript. Su objetivo es ofrecer un rendimiento mejorado y un enfoque en la programación funcional, permitiendo a los desarrolladores construir aplicaciones web de manera eficiente y efectiva.
 
-## Pilares y conceptos principales de la Programación Funcional ##
+## Pilares y Conceptos Principales del Lenguaje FWS ##
 
-### Pilares de la Programación Funcional ###
+### Pilares de FWS ###
 
 1. **Funciones puras:**
    - No tienen efectos secundarios.
@@ -34,7 +34,7 @@ FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web
    - Se crean programas complejos combinando funciones simples.
    - Fomenta la reutilización y la modularidad.
 
-### Conceptos clave ###
+### Conceptos Clave ###
 
 | Concepto                      | Descripción breve                                                  |
 |-------------------------------|--------------------------------------------------------------------|
