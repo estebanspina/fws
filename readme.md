@@ -2,82 +2,47 @@
 
 FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web, inspirado en la sintaxis y funcionalidad de lenguajes maduros como JavaScript. Su objetivo es ofrecer un rendimiento mejorado y un enfoque en la programación funcional, permitiendo a los desarrolladores construir aplicaciones web de manera eficiente y efectiva.
 
-## Características Clave ##
+## Pilares y conceptos principales de la Programación Funcional
 
-### Sintaxis Familiar ###
-- La sintaxis de FWS deberá ser similar a la de JavaScript, permitiendo que los desarrolladores que ya están familiarizados con este lenguaje maduro puedan adaptarse rápidamente.
-- Soporte para estructuras de control como if, for, while, y funciones de alto orden.
+### Pilares de la Programación Funcional
 
-### Tipado Dinámico ###
-- FWS implementa un sistema de tipos dinámicos, lo que permite a los desarrolladores declarar variables sin necesidad de especificar un tipo explícito. Esto proporciona una gran flexibilidad y agilidad en el desarrollo.
-- Las variables pueden cambiar de tipo en tiempo de ejecución, lo que facilita la manipulación de datos de diferentes tipos sin complicaciones.
+1. **Funciones puras**
+   - No tienen efectos secundarios.
+   - Devuelven siempre el mismo resultado para los mismos argumentos.
+   - No modifican datos externos ni cambian el estado global.
 
-Ejemplo:
+2. **Inmutabilidad**
+   - Los datos no cambian una vez creados.
+   - Se crean nuevas versiones de las estructuras de datos en lugar de modificarlas.
+   - Facilita el razonamiento y evita errores por estado compartido.
 
-```
-var x = 10;         // x es un número
-x = "Hola";        // x ahora es una cadena
-x = [1, 2, 3];    // x ahora es un array
-```
+3. **Funciones como ciudadanos de primera clase**
+   - Las funciones pueden asignarse a variables.
+   - Se pueden pasar como argumentos y devolver como resultados.
+   - Permite el uso de funciones de orden superior.
 
-### Enfoque en Programación Funcional ###
+4. **Transparencia referencial**
+   - Una expresión puede ser reemplazada por su resultado sin cambiar el comportamiento del programa.
+   - Mejora la capacidad de razonamiento y permite optimizaciones como memoización.
 
-- FWS promueve un estilo de programación funcional, donde las funciones son ciudadanos de primera clase. Esto significa que las funciones pueden ser asignadas a variables, pasadas como argumentos y retornadas desde otras funciones.
-- Soporte para funciones puras, evitando efectos secundarios y facilitando la composición de funciones.
+5. **Evaluación perezosa (Lazy Evaluation)**
+   - Las expresiones no se evalúan hasta que es necesario.
+   - Permite trabajar con estructuras infinitas y optimizar el rendimiento.
+   - (Dependiendo del lenguaje).
 
-Ejemplo:
+6. **Composición de funciones**
+   - Se crean programas complejos combinando funciones simples.
+   - Fomenta la reutilización y la modularidad.
 
-```
-// Definición de una función pura
-function suma(a, b) {
-    return a + b;
-}
+### Conceptos clave
 
-// Composición de funciones
-function aplicarDoble(func, valor) {
-    return func(func(valor));
-}
-
-var resultado = aplicarDoble(suma, 5)(3); // Resultado: 16
-print("El resultado es: " + resultado);
-```
-
-### Ejecutable en el Navegador ###
-
-- FWS se compilará a código máquina o a WebAssembly, permitiendo que las aplicaciones se ejecuten directamente en el navegador con un rendimiento cercano al nativo.
-- Integración con tecnologías web existentes como HTML5, CSS3 y APIs del navegador.
-
-### Manejo Asíncrono ###
-
-- Soporte para operaciones asíncronas, incorporando promesas y async/await, facilitando el trabajo con solicitudes HTTP y otras operaciones que requieren tiempo.
-
-### Seguridad ###
-
-- Enfoque en la seguridad para evitar vulnerabilidades comunes, como inyecciones de código o acceso no autorizado a datos.
-
-### Ejemplo de Código ###
-
-```
-// Definición de una función pura
-function cuadrado(x) {
-    return x * x;
-}
-
-// Uso de la función
-var resultado = cuadrado(4);
-print("El cuadrado es: " + resultado); // Salida: El cuadrado es: 16
-
-// Uso de funciones de alto orden
-function map(func, arr) {
-    var resultado = [];
-    for (var i = 0; i < arr.length; i++) {
-        resultado[i] = func(arr[i]);
-    }
-    return resultado;
-}
-
-// Aplicar la función cuadrado a un array
-var numeros = [1, 2, 3, 4];
-var cuadrados = map(cuadrado, numeros);
-print("Cuadrados: " + cuadrados); // Salida: Cuadrados: 1,4,9,16
-```
+| Concepto                      | Descripción breve                                                  |
+|-------------------------------|--------------------------------------------------------------------|
+| **Funciones puras**            | Sin efectos colaterales, solo entrada → salida.                    |
+| **Inmutabilidad**              | Datos no se modifican, se crean nuevas versiones.                  |
+| **Funciones de orden superior**| Aceptan y devuelven funciones.                                     |
+| **Transparencia referencial**  | Se puede sustituir expresión por su resultado sin problemas.       |
+| **Currying**                   | Convierte funciones de varios argumentos en una secuencia de funciones de un solo argumento. |
+| **Composición de funciones**   | Combinación de funciones para crear nuevas funciones.              |
+| **Recursión**                  | Sustituye bucles; se favorece sobre estructuras imperativas.       |
+| **Mónadas (avanzado)**          | Manejan efectos secundarios de manera controlada (como IO, errores). |
