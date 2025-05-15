@@ -4,6 +4,23 @@ FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web
 
 ## Pilares y Conceptos Principales del Lenguaje FWS ##
 
+FWS utiliza paradigmas de programación funcional, que se basan en el uso de funciones como unidades fundamentales de construcción de software. Mediante el uso de este paradigma, FWS toma inspiración directa de la **matemática y el cálculo lambda**, buscando escribir programas más declarativos, expresivos y fáciles de razonar. Al eliminar o controlar los efectos colaterales, el uso de la programación funcional permite construir software más robusto, predecible y fácil de testear.
+
+### Los Principales Motivos ###
+
+- Facilidad en la **razonabilidad** y la comprensión del código.
+- Fomentar la **modularidad**, permitiendo crear software a partir de funciones pequeñas y reutilizables.
+- Mejorar la **concurrencia y paralelización**, ya que se evitan problemas de estado compartido.
+- Reducir errores relacionados con el cambio de estado o la mutación de datos.
+
+### Principios centrales ###
+
+Basado en el paradigma de programación funcional, el lenguaje de programación FWS se apoya en varios pilares conceptuales que lo distinguen claramente de otros lenguajes similares, como los basados en la programación orientada a objetos o la imperativa. Estos principios incluyen la inmutabilidad, el uso de funciones puras, la transparencia referencial, el currying, la composición de funciones, y el uso intensivo de funciones de orden superior.
+
+Comprender estos pilares y conceptos es clave la correcta implementación de un proyecto basado en FWS y para aplicar la programación funcional de manera efectiva.
+
+A continuación se listan los principales **pilares** y **conceptos clave** del lenguaje FWS tomados del paradigma de programación funcional:
+
 ### Pilares de FWS ###
 
 1. **Funciones puras:**
@@ -46,8 +63,3 @@ FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web
 | **Composición de funciones**   | Combinación de funciones para crear nuevas funciones.              |
 | **Recursión**                  | Sustituye bucles; se favorece sobre estructuras imperativas.       |
 | **Mónadas (avanzado)**          | Manejan efectos secundarios de manera controlada (como IO, errores). |
-
-## Diagrama conceptual ##
-Este diagrama muestra cómo todos los pilares se interrelacionan y derivan en prácticas y conceptos avanzados.
-
-[![](https://mermaid.ink/img/pako:eNpdUs1uGjEQfhXLZ4J2F-j-HCq1kKRJWglFOdWbw3RtwO3asxqvqwLiqfIIebHY0KCwPnnm-xn7s_e8Qal4xdcE3YY9LWqqLQvri1gShqaBRr--WHbjbaPRQvscGWcWu7r6zL6K_6hybOkJ3PMlPhd31vgefulWS5ADdPFB3aBB1mgfWGDRMalYR9ooAta04NRAei2eCKzrgFRwAPaoVuq0bQfMG3H9F1oPcQ5bBtIOHTAk9h12Wxaxi3stjqLbDycLJ0GSyjLnO0Ua6Tzg9sj9JuaeaKvtegDciTmaDp0-5Rh8Vu-mFyNP7HvxqBpPLnIHRg_iR2iGYBxDZsCq3xjdwpWbHmN0tidsQeLJl4_Cm2rJq568GvGQoYFY8n00rXm_UUbVvApbCfSn5rU9BE0H9ieieZcR-vWGVytoXah8J6FXCw3xY5y7IXGpaI7e9rxKi-Jowqs9_xfKtByXs3xWFGk5K5IkD-iWV1mSjWfJJMnSbJpkk-mkOIz47jg3GRf5tCzL_FOSTtIszYvDG3wV2yc?type=png)](https://mermaid.live/edit#pako:eNpdUs1uGjEQfhXLZ4J2F-j-HCq1kKRJWglFOdWbw3RtwO3asxqvqwLiqfIIebHY0KCwPnnm-xn7s_e8Qal4xdcE3YY9LWqqLQvri1gShqaBRr--WHbjbaPRQvscGWcWu7r6zL6K_6hybOkJ3PMlPhd31vgefulWS5ADdPFB3aBB1mgfWGDRMalYR9ooAta04NRAei2eCKzrgFRwAPaoVuq0bQfMG3H9F1oPcQ5bBtIOHTAk9h12Wxaxi3stjqLbDycLJ0GSyjLnO0Ua6Tzg9sj9JuaeaKvtegDciTmaDp0-5Rh8Vu-mFyNP7HvxqBpPLnIHRg_iR2iGYBxDZsCq3xjdwpWbHmN0tidsQeLJl4_Cm2rJq568GvGQoYFY8n00rXm_UUbVvApbCfSn5rU9BE0H9ieieZcR-vWGVytoXah8J6FXCw3xY5y7IXGpaI7e9rxKi-Jowqs9_xfKtByXs3xWFGk5K5IkD-iWV1mSjWfJJMnSbJpkk-mkOIz47jg3GRf5tCzL_FOSTtIszYvDG3wV2yc)
