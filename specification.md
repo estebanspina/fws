@@ -28,7 +28,7 @@ FWSL (Functional Web Scripting Language) is a purely functional, declarative, an
 
 ## 3. Syntax
 
-### Formal Syntax (EBNF)
+### Formal Syntax
 
 ```
 program        ::= statement*
@@ -44,4 +44,18 @@ identifier     ::= letter (letter | digit)*
 number         ::= digit+
 string         ::= '"' .*? '"'
 boolean        ::= "true" | "false"
+```
+
+## 4. Semantics
+
+- Strict evaluation (except composition and currying: lazy).
+- Referential transparency: expressions can be replaced with their result.
+- Side-effects are isolated and explicit.
+
+### Example
+
+```
+fun add(x, y) => x + y
+fun double = add(2)
+double(5) ; result: 7
 ```
