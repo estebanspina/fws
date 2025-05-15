@@ -47,37 +47,7 @@ FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web
 | **Recursión**                  | Sustituye bucles; se favorece sobre estructuras imperativas.       |
 | **Mónadas (avanzado)**          | Manejan efectos secundarios de manera controlada (como IO, errores). |
 
-## Diagrama conceptual - Programación Funcional ##
+## Diagrama conceptual ##
 Este diagrama muestra cómo todos los pilares se interrelacionan y derivan en prácticas y conceptos avanzados.
 
-
-                                 +-----------------------------+
-                                 |    Programación Funcional    |
-                                 +-----------------------------+
-                                              |
-    ----------------------------------------------------------------------------------
-    |                     |                     |                     |             |
-+----------------+  +----------------+  +----------------+  +----------------+  +----------------+
-| Funciones Puras |  | Inmutabilidad  |  | Funciones como |  | Transparencia  |  | Evaluación     |
-|                 |  |                |  | ciudadanos de  |  | Referencial    |  | Perezosa       |
-| Entrada -> Salida | | No modifica    |  | primera clase  |  | (Equivalencia  |  | (Lazy Eval)    |
-| Sin efectos    |  | datos originales | | Pueden ser     |  | de expresión y |  | Evalúa bajo    |
-| secundarios    |  | Crea nuevas     |  | argumentos,    |  | resultado)     |  | demanda        |
-+----------------+  | estructuras    |  | retornos       |  +----------------+  +----------------+
-                     +----------------+  +----------------+                                   
-                                              |
-                                              v
-                                  +--------------------------+
-                                  |  Funciones de orden      |
-                                  |  superior y composición  |
-                                  +--------------------------+
-                                              |
-    ---------------------------------------------------------------------------------
-    |                             |                           |                    |
-+-----------+          +----------------+           +----------------+   +----------------+
-| Currying  |          | Composición de |           | Recursión       |   | Mónadas        |
-|           |          | funciones       |           | (en vez de      |   | (Efectos      |
-| Convierte |          | Construir       |           | bucles)         |   | controlados)  |
-| funciones |          | complejidad     |           +----------------+   +----------------+
-| multiar.  |          | desde lo simple |
-+-----------+          +----------------+
+[![](https://mermaid.ink/img/pako:eNpdUs1uGjEQfhXLZ4J2F-j-HCq1kKRJWglFOdWbw3RtwO3asxqvqwLiqfIIebHY0KCwPnnm-xn7s_e8Qal4xdcE3YY9LWqqLQvri1gShqaBRr--WHbjbaPRQvscGWcWu7r6zL6K_6hybOkJ3PMlPhd31vgefulWS5ADdPFB3aBB1mgfWGDRMalYR9ooAta04NRAei2eCKzrgFRwAPaoVuq0bQfMG3H9F1oPcQ5bBtIOHTAk9h12Wxaxi3stjqLbDycLJ0GSyjLnO0Ua6Tzg9sj9JuaeaKvtegDciTmaDp0-5Rh8Vu-mFyNP7HvxqBpPLnIHRg_iR2iGYBxDZsCq3xjdwpWbHmN0tidsQeLJl4_Cm2rJq568GvGQoYFY8n00rXm_UUbVvApbCfSn5rU9BE0H9ieieZcR-vWGVytoXah8J6FXCw3xY5y7IXGpaI7e9rxKi-Jowqs9_xfKtByXs3xWFGk5K5IkD-iWV1mSjWfJJMnSbJpkk-mkOIz47jg3GRf5tCzL_FOSTtIszYvDG3wV2yc?type=png)](https://mermaid.live/edit#pako:eNpdUs1uGjEQfhXLZ4J2F-j-HCq1kKRJWglFOdWbw3RtwO3asxqvqwLiqfIIebHY0KCwPnnm-xn7s_e8Qal4xdcE3YY9LWqqLQvri1gShqaBRr--WHbjbaPRQvscGWcWu7r6zL6K_6hybOkJ3PMlPhd31vgefulWS5ADdPFB3aBB1mgfWGDRMalYR9ooAta04NRAei2eCKzrgFRwAPaoVuq0bQfMG3H9F1oPcQ5bBtIOHTAk9h12Wxaxi3stjqLbDycLJ0GSyjLnO0Ua6Tzg9sj9JuaeaKvtegDciTmaDp0-5Rh8Vu-mFyNP7HvxqBpPLnIHRg_iR2iGYBxDZsCq3xjdwpWbHmN0tidsQeLJl4_Cm2rJq568GvGQoYFY8n00rXm_UUbVvApbCfSn5rU9BE0H9ieieZcR-vWGVytoXah8J6FXCw3xY5y7IXGpaI7e9rxKi-Jowqs9_xfKtByXs3xWFGk5K5IkD-iWV1mSjWfJJMnSbJpkk-mkOIz47jg3GRf5tCzL_FOSTtIszYvDG3wV2yc)
