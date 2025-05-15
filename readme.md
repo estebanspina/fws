@@ -46,3 +46,38 @@ FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web
 | **Composición de funciones**   | Combinación de funciones para crear nuevas funciones.              |
 | **Recursión**                  | Sustituye bucles; se favorece sobre estructuras imperativas.       |
 | **Mónadas (avanzado)**          | Manejan efectos secundarios de manera controlada (como IO, errores). |
+
+## Diagrama conceptual - Programación Funcional ##
+Este diagrama muestra cómo todos los pilares se interrelacionan y derivan en prácticas y conceptos avanzados.
+
+
+                                 +-----------------------------+
+                                 |    Programación Funcional    |
+                                 +-----------------------------+
+                                              |
+    ----------------------------------------------------------------------------------
+    |                     |                     |                     |             |
++----------------+  +----------------+  +----------------+  +----------------+  +----------------+
+| Funciones Puras |  | Inmutabilidad  |  | Funciones como |  | Transparencia  |  | Evaluación     |
+|                 |  |                |  | ciudadanos de  |  | Referencial    |  | Perezosa       |
+| Entrada -> Salida | | No modifica    |  | primera clase  |  | (Equivalencia  |  | (Lazy Eval)    |
+| Sin efectos    |  | datos originales | | Pueden ser     |  | de expresión y |  | Evalúa bajo    |
+| secundarios    |  | Crea nuevas     |  | argumentos,    |  | resultado)     |  | demanda        |
++----------------+  | estructuras    |  | retornos       |  +----------------+  +----------------+
+                     +----------------+  +----------------+                                   
+                                              |
+                                              v
+                                  +--------------------------+
+                                  |  Funciones de orden      |
+                                  |  superior y composición  |
+                                  +--------------------------+
+                                              |
+    ---------------------------------------------------------------------------------
+    |                             |                           |                    |
++-----------+          +----------------+           +----------------+   +----------------+
+| Currying  |          | Composición de |           | Recursión       |   | Mónadas        |
+|           |          | funciones       |           | (en vez de      |   | (Efectos      |
+| Convierte |          | Construir       |           | bucles)         |   | controlados)  |
+| funciones |          | complejidad     |           +----------------+   +----------------+
+| multiar.  |          | desde lo simple |
++-----------+          +----------------+
