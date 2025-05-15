@@ -1,17 +1,15 @@
 # Manifesto of the Strata Programming Language
 
-## Introduction
-
 Modern backend software development has long been dominated by imperative, object-oriented, and stateful paradigms. These approaches, while familiar and pragmatic, introduce complexity, brittleness, and limitations in scalability, fault-tolerance, and reasoning about code in distributed, concurrent systems.
 
 In this context, **Strata Programming Language** evolves beyond its web-focused origins to become a **server-first, functional programming language**, designed from the ground up for building **reliable, maintainable, and highly predictable backend systems**, APIs, and distributed services.
 
-### Why Strata?
+### Build Backends Like Nature Builds Mountains
 
-The name Strata reflects the language's core philosophy of building backend systems through clear, composable, and predictable layers of pure functions and controlled side effects.
+The name **Strata** reflects the language's core philosophy of building backend systems through clear, composable, and predictable layers of pure functions and controlled side effects.
 
-In geology, "strata" are well-defined, stable layers of rock, each distinct yet forming a cohesive whole.
-Similarly, Strata promotes designing backend applications as transparent layers of logic, data transformations, and effect management, where each layer is:
+In geology, strata are well-defined, stable layers of rock, each distinct yet forming a cohesive whole.
+Similarly, **Strata** promotes designing backend applications as transparent layers of logic, data transformations, and effect management, where each layer is:
 
 - Pure and isolated, free from unexpected side effects.
 - Composable and declarative, fitting naturally into larger pipelines and services.
