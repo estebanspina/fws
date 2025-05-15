@@ -1,6 +1,6 @@
 # FWS (Functional Web Scripting Language) #
 
-FWS es un proyecto de lenguaje de programación diseñado para el desarrollo web, inspirado en la sintaxis y funcionalidad de lenguajes maduros como JavaScript. Su objetivo es ofrecer un rendimiento mejorado y un enfoque en la programación funcional, permitiendo a los desarrolladores construir aplicaciones web de manera eficiente y efectiva.
+FWS es un lenguaje de programación diseñado principalmente para el desarrollo web con un enfoque centrado en el paradigma de programación funcional. Prioriza la inmutabilidad, las funciones puras y la composición declarativa como pilares fundamentales para construir aplicaciones web robustas, predecibles y mantenibles. FWS busca ofrecer una experiencia moderna y eficiente, simplificando la construcción de soluciones complejas mediante abstracciones funcionales claras y concisas, sin depender de patrones imperativos tradicionales.
 
 ## Pilares y Conceptos Principales del Lenguaje FWS ##
 
