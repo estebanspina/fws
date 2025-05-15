@@ -55,4 +55,10 @@ With FWSL, we aim for web code to be not only correct but also beautiful, clear,
 FWSL is not just a language; it is a declaration of principles—a bold commitment to rigor, simplicity, and elegance in web development.  
 It is an invitation to rethink how we build the modern web, relying on the proven foundations of functional programming.
 
-Proceed to the [Language Specification](specification.md)
+## Specification
+
+The complete technical specification, including grammar, type system, semantics, and tooling roadmap, can be found in the [Language Specification](specification.md) file.
+
+## Contribute
+
+## License
