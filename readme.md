@@ -1,8 +1,8 @@
-# Manifesto of the FWSL (Functional Web Scripting Language)
+# Manifesto of the FW Scripting Language
 
 ## Introduction
 
-Modern software development—particularly in the web domain—has historically been dominated by imperative and object-oriented paradigms. While these models have provided viable solutions, they also reveal clear limitations in terms of scalability, maintainability, concurrency, and code reasoning.  
+Modern software development —particularly in the web domain— has historically been dominated by imperative and object-oriented paradigms. While these models have provided viable solutions, they also reveal clear limitations in terms of scalability, maintainability, concurrency, and code reasoning.  
 In this context, **FWSL (Functional Web Scripting Language)** emerges as a disruptive and necessary proposal: a programming language grounded in the functional paradigm, designed from the ground up for robust, declarative, and highly predictable web development.
 
 ## Purpose
