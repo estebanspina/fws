@@ -2,7 +2,8 @@
 
 ## Introduction
 
-Modern backend software development has long been dominated by imperative, object-oriented, and stateful paradigms. These approaches, while familiar and pragmatic, introduce complexity, brittleness, and limitations in scalability, fault-tolerance, and reasoning about code in distributed, concurrent systems.  
+Modern backend software development has long been dominated by imperative, object-oriented, and stateful paradigms. These approaches, while familiar and pragmatic, introduce complexity, brittleness, and limitations in scalability, fault-tolerance, and reasoning about code in distributed, concurrent systems.
+
 In this context, **Strata Programming Language** evolves beyond its web-focused origins to become a **server-first, functional programming language**, designed from the ground up for building **reliable, maintainable, and highly predictable backend systems**, APIs, and distributed services.
 
 ## Purpose
@@ -63,10 +64,10 @@ The complete technical specification — including grammar, type system, concurr
 - Documentation, tutorials, and best practices
 - Ecosystem tools (frameworks, connectors, adapters)
 
-For contribution guidelines, refer to the [Contributing Guide](contributing.md) and join the discussion in our [community channels](community.md).
+For contribution guidelines, refer to the [Contributing Guide](contributing.md) and join the discussion in our [Community Channels](community.md).
 
 ## License
 
-**Strata** is released under the **MIT License**, granting freedom to use, modify, and distribute the language and its tooling for both commercial and non-commercial use.
+**Strata Programming Language** is released under the **MIT License**, granting freedom to use, modify, and distribute the language and its tooling for both commercial and non-commercial use.
 
 Let me know if you want me to help with anything else!
