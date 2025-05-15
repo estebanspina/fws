@@ -59,3 +59,70 @@ fun add(x, y) => x + y
 fun double = add(2)
 double(5) ; result: 7
 ```
+
+## 5. Type System
+
+| Type     | Description           |
+| -------- | --------------------- |
+| Int      | Integer values        |
+| String   | Text strings          |
+| Bool     | Booleans              |
+| List<T>  | Immutable lists       |
+| (A -> B) | Functions from A to B |
+
+### Example
+
+```
+fun add(x: Int, y: Int): Int => x + y
+```
+
+## 6. Core Functional Constructs
+
+- Pure functions
+- Currying
+- Composition
+- Recursion
+- Functions as first-class citizens
+
+### Examples
+
+```
+fun add(x) => fun(y) => x + y
+```
+```
+fun square(x) => x * x
+```
+```
+fun addThenSquare = square ∘ add(3)
+```
+```
+addThenSquare(4) ; Result: 49
+```
+
+##7. Standard Library & Web APIs
+
+### Declarative UI component
+
+```
+fun Button(label, onClick) =>
+  <button onclick=onClick>{label}</button>
+```
+
+### State and controlled side effects
+
+```
+fun useState(initial) =>
+  (initial, fun(newState) => /* returns new immutable state */)
+
+fun Counter() =>
+  let (count, setCount) = useState(0)
+  Button("Count: " + count, fun() => setCount(count + 1))
+```
+
+## 8. Tooling & Environment
+
+- Compiler from FWSL to optimized JavaScript or WebAssembly.
+- Modular system (import, export).
+- Testing framework leveraging function purity.
+- Integration with browser environments.
+
